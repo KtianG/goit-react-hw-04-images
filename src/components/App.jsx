@@ -54,7 +54,7 @@ export const App = () => {
     const new_image_array = images.concat(images_array);
 
     setImages(new_image_array);
-    setIsLoading(true);
+    setIsLoading(false);
 
     if (new_image_array.length < totalHits) {
       setLoadMoreState(true);
